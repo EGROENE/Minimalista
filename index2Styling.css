@@ -1,0 +1,143 @@
+body {
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: 20px;
+    background-color: darkcyan;
+    color: bisque;
+}
+
+.page-container {
+    display: grid;
+    row-gap: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-img {
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-img img {
+    width: 50px;
+}
+
+.header-img div:last-child {
+    margin-left: 10px;
+}
+
+.header-img p {
+    font-size: 25px;
+}
+
+.header-nav-container {
+    display: flex;
+    padding-right: 20px;
+}
+
+.about {
+    border: 3px solid coral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 40px;
+}
+
+.about div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.about p {
+    margin-bottom: 0;
+}
+
+.header-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    text-align: center;
+    align-content: center;
+    min-width: 400px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: coral;
+}
+
+.header-nav a:hover {
+    color: bisque;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.gallery div {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.gallery-text {
+    text-align: center;
+}
+
+.gallery-text p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.team-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 25px;
+    text-align: center;
+}
+
+.team-gallery img {
+    width: 100%;
+    border: 3px solid coral;
+}
