@@ -145,6 +145,11 @@ body {
 /* MEDIA QUERIES */
 @media all and (max-width: 768px) {
     
+    .about {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .gallery {
         display: flex; 
         flex-direction: column;
@@ -152,11 +157,6 @@ body {
 }
 
 @media all and (max-width: 425px) {
-
-    .about {
-        padding-left: 0;
-        padding-right: 0;
-    }
 
     .team-gallery {
         grid-template-columns: repeat(2, 1fr);
