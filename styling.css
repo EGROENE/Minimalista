@@ -142,6 +142,25 @@ body {
     border: 3px solid coral;
 }
 
+.team-gallery h3, .team-gallery p, .team-gallery i {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.team-socials {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-socials a {
+    text-decoration: none;
+    color: bisque;
+}
+
+.team-socials a:hover {
+    color: coral;
+}
+
 /* MEDIA QUERIES */
 @media all and (max-width: 768px) {
     
@@ -153,6 +172,12 @@ body {
     .gallery {
         display: flex; 
         flex-direction: column;
+    }
+
+    .team-gallery h3, .team-gallery p, .team-gallery i {
+        font-size: smaller;
+        margin-top: 8px;
+        margin-bottom: 8px;
     }
 }
 
