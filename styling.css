@@ -178,8 +178,8 @@ footer {
 .footer-section1, .footer-section2, .footer-section3 {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .footer-section1 {
@@ -227,9 +227,11 @@ footer {
     margin-bottom: 0;
 }
 
+/*
 .footer-section1, .footer-section2 {
     border-bottom: 3px dotted bisque;
 }
+*/
 
 .footer-section3 {
     display: flex;
@@ -266,8 +268,12 @@ footer {
         margin-bottom: 8px;
     }
 
-    .footer-section-container p {
-        font-size: smaller;
+    .footer-section1, .footer-section2, .footer-section3 {
+       font-size: small;
+    }
+
+    .comp-socials a i {
+        font-size: 30px;
     }
 }
 
