@@ -1,5 +1,9 @@
 /* START max-width: 768px */
-@media all and (max-width: 768px) {
+@media all and (max-width: 768px) {  
+    .page-container {
+        display: grid;
+        row-gap: 10px;
+    }
     
     .about {
         padding-left: 0;
@@ -7,11 +11,18 @@
     }
 
     .gallery {
-        display: flex; 
+        /* display: grid; */
+        /* grid-template-columns: repeat(3, 1fr); */
+        /* column-gap: 20px; */
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
         flex-direction: column;
     }
 
-    .team-gallery h3, .team-gallery p, .team-gallery i {
+    .team-gallery h3, 
+    .team-gallery p, 
+    .team-gallery i {
         font-size: smaller;
         margin-top: 8px;
         margin-bottom: 8px;
@@ -45,6 +56,14 @@
     .team-gallery {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 15px;
+    }
+
+    .team-gallery h3, 
+    .team-gallery p, 
+    .team-gallery i {
+        font-size: larger;
+        margin-top: 8px;
+        margin-bottom: 8px;
     }
 }
 /* END max-width: 425px */
