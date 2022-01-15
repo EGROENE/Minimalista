@@ -248,39 +248,3 @@ footer {
 .footer-section3 i {
     color: hotpink;
 }
-
-/* MEDIA QUERIES */
-@media all and (max-width: 768px) {
-    
-    .about {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .gallery {
-        display: flex; 
-        flex-direction: column;
-    }
-
-    .team-gallery h3, .team-gallery p, .team-gallery i {
-        font-size: smaller;
-        margin-top: 8px;
-        margin-bottom: 8px;
-    }
-
-    .footer-section1, .footer-section2, .footer-section3 {
-       font-size: small;
-    }
-
-    .comp-socials a i {
-        font-size: 30px;
-    }
-}
-
-@media all and (max-width: 425px) {
-
-    .team-gallery {
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 15px;
-    }
-}
