@@ -1,3 +1,156 @@
+/* START min-width: 2560px */
+@media (min-width: 2560px) {
+    .header-img img {
+        width: 200px;
+    }
+
+    .header-img p {
+        font-size: 85px;
+    }
+
+    .header-nav a {
+        font-size: 70px;
+    }
+
+    .about {
+        padding: 50px;
+        border: 15px solid coral;
+    }
+
+    .about h1 {
+        font-size: 105px;
+    }
+
+    .about p {
+        margin-bottom: 0;
+        font-size: 75px;
+        line-height: 95px;
+    }
+
+    .gallery h2 {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        font-size: 60px;
+    }
+
+    .gallery p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 45px;
+        line-height: 65px;
+    }
+
+    .team h2 {
+        font-size: 90px;
+    }
+
+    .team-gallery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 80px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .team-gallery h3, 
+    .team-gallery p, 
+    .team-gallery i {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-size: xxx-large;
+    }
+
+    .footer-section1,
+    .footer-section2,
+    .footer-section3 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .comp-socials a i {
+        font-size: 100px;
+    }
+
+    .comp-socials p {
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 45px;
+    }
+
+    .footer-section2 div p:first-child {
+        color: coral;
+        font-size: xxx-large;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .footer-section2 div p:nth-child(2),
+    .footer-section2 div p:nth-child(3) {
+        font-size: 40px;
+    }
+
+    .footer-section3 p {
+        font-size: 30px;
+    }
+}
+/* END min-width: 2560px */
+
+/* START min-width: 1440px and max-width: 2559px */
+@media (min-width: 1440px) and (max-width: 2559px) {
+    .header-img img {
+        width: 100px;
+    }
+
+    .header-img p {
+        font-size: 45px;
+    }
+    
+    .header-nav a {
+        text-decoration: none;
+        color: coral;
+        font-size: 35px;
+    }
+
+    .about h1 {
+    font-size: 60px;
+    margin: 0;
+    }
+    
+    .about p {
+        margin-bottom: 0;
+        font-size: 35px;
+        line-height: 55px;
+    }
+
+    .gallery h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+
+    .gallery p {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .team h2 {
+        font-size: 45px;
+    }
+
+    .team-gallery h3, 
+    .team-gallery p, 
+    .team-gallery i {
+        font-size: xx-large;
+    }
+
+    .footer-section3 p {
+        font-size: 22px;
+    }
+}
+/* END min-width: 1440px and max-width: 2559px */
+
 /* START max-width: 768px */
 @media all and (max-width: 768px) {  
     .page-container {
