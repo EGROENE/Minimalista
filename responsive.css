@@ -28,7 +28,9 @@
         margin-bottom: 8px;
     }
 
-    .footer-section1, .footer-section2, .footer-section3 {
+    .footer-section1, 
+    .footer-section2, 
+    .footer-section3 {
        font-size: small;
     }
 
